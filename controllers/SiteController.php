@@ -8,6 +8,6 @@ class SiteController extends Controller
 {
     public function actionIndex ()
     {
-        return 'Yii2';
+        return $this->render('index');
     }
 }
